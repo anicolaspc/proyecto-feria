@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50%;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.logo{
+    height: 90px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+li a:hover{
+    text-decoration: underline;
+
+}
+nav{
+    text-align: right;
+    padding: 30px 30px 0 0;
+}
+
+nav>a{
+    color: black;
+    font-weight: 1000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.datos_curiosos{
+    padding: 60px 0;
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen{
+    width: 250px;
+    height: 450px;
+}
+
+.contenido{
+    width: 450px;
+    text-align: justify;
+}
+
+
+.comentarios_expertos{
+    background: #4c06869c;
+    padding-bottom: 30px;
+}
+
+.expertos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expertos .mensajes{
+    background: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.expertos .mensajes img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.expertos .mensajes > .mensaje{
+    width: 60%;
+    color: #fff;
+}
+
+.expertos .mensajes > .mensaje p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor_footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.redes img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.titulo_footer{
+    color: #fff;
+    text-align: center;
+}
+
+.redes{
+    text-align: center;
+}
+
+.redes h3{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.redes a{
+    color: #ccc;
+}
+
+.derechos_autor{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0 ;
+    color: #9e9797;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        background-position: center;
+    }    
+    .contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenido{
+        width: auto;
+    }
+
+    .expertos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expertos .mensajes{
+        width: 90%;
+    }
+    
+    .expertos .mensajes:first-child{
+        margin-bottom: 30px;
+    }
+
+    .contenedor_footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
