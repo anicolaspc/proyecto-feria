@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantas medicinales</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/tratamientos.css">
     <link rel="shortcut icon" href="imagenes/logo.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,88 +20,32 @@
         <!--navegador-->
         <nav>
             <img class="logo" src="imagenes/logo.jpg" alt="logo">
-            <a href="#">Inicio</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Tratamientos</a>
-            <a href="#">Foro</a>
+            <ul>
+                <li><a class="activa" href="#">Inicio</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="tratamientos.html">Tratamientos</a></li>
+                <li><a href="#">Foro</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <!--datos curiosos-->
-        <section class="datos_curiosos">
-            <h2 class="titulo">¿Quienes somos?</h2>
-            <div class="contenedor">
-                <img src="imagenes/planta medicinal.png" alt="Nosotros" class="imagen">
-                <p class="contenido">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum rerum, dolores repellat modi
-                    distinctio laudantium consequatur. Debitis aliquam nulla ad tenetur dicta at, amet asperiores dolor
-                    laudantium, adipisci, perspiciatis sed?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae id pariatur non, dolor
-                    voluptate impedit consequuntur eligendi ea autem. Odio, nemo! Sed praesentium quae
-                    minima
-                    vitae est ratione aliquam! Aperiam?
-                </p>
-            </div>
-            <h2 class="titulo">¿Qué es la medicina alternativa?</h2>
-            <div class="contenedor">
-                <img src="imagenes/alternativa.PNG" alt="¿Qué es la medicina alternativa?" class="imagen">
-                <p class="contenido">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur inventore delectus possimus quidem
-                    esse praesentium dolore aut ea, harum aliquid nisi dolores reiciendis ut maiores architecto non
-                    iure. Quibusdam, architecto.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, alias sapiente?
-                    Voluptas
-                    placeat earum incidunt, laboriosam iste veniam hic vitae recusandae, delectus
-                    blanditiis,
-                    eligendi ipsum laborum corporis facere inventore repellat?
-                </p>
-            </div>
-            <h2 class="titulo">Beneficios de la medicina alternativa</h2>
-            <div class="contenedor">
-                <img src="imagenes/beneficios.png" alt="Beneficios" class="imagen">
-                <p class="contenido">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut saepe itaque, mollitia id iure ex,
-                    ducimus minus voluptatum rerum deserunt dolorem quidem voluptates, fugit sit delectus a dignissimos
-                    soluta? Doloribus!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab beatae incidunt laboriosam
-                    repellat
-                    omnis, magni voluptatem cum impedit tenetur ipsum placeat commodi deleniti
-                    exercitationem
-                    aspernatur asperiores officiis excepturi dicta quis?
-                </p>
-            </div>
-            <h2 class="titulo">Riesgos</h2>
-            <div class="contenedor">
-                <img src="imagenes/riesgo.jpg" alt="Riesgos" class="imagen">
-                <p class="contenido">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eveniet, odio vitae debitis
-                    dignissimos, necessitatibus repellendus eligendi nostrum dolores molestiae ipsam aperiam omnis fuga
-                    facere, eum suscipit eos eaque doloribus.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit earum eligendi nesciunt
-                    maxime
-                    expedita hic exercitationem ad quod vel pariatur eum, nihil dolor aperiam delectus
-                    iusto.
-                    Necessitatibus totam eos iure.
-                </p>
-                </class=>
-            </div>
-        </section>
+
         <!--comentarios de expertos-->
         <section class="comentarios_expertos">
-            <div class="contenedor">
+            <div class="contenedor-">
+                <h2 class="titulo">Que dicen los expertos</h2>
                 <div class="expertos">
-                    <h2 class="titulo">Que dicen los expertos</h2>
                     <div class="mensajes">
                         <img src="imagenes/usuario.png" alt="usuario">
                         <div class="mensaje">
                             <h3>Nombre experto/sito</h3>
-                            <p clas="contenido">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.
-                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
                         </div>
+                    </div>
+                    <div class="mensajes">
+                        <img src="imagenes/usuario.png" alt="usuario">
                         <div class="mensaje">
-                            <img src="imagenes/usuario.png" alt="usuario">
                             <h3>Nombre experto/sito</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
                         </div>
@@ -111,15 +56,7 @@
     </main>
     <footer>
         <!--redes sociales -->
-        <section class="redes_sociales">
-            <h2 class="titulo">Redes sociales</h2>
-            <div class="contenedor">
-                <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="imagenes/whatsapp.png" alt="WhatsApp"></a>
-            </div>
-        </section>
-        <h2 class="derechos_autor">&copy; Alvaro Peña</h2>
+        <iframe class="footer" src="footer.html"></iframe>
     </footer>
 </body>
 
