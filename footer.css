@@ -1,7 +1,14 @@
+footer {
+    background: var(--fondo_footer);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
 .footer{
     width: 100%;
     height: 420px;
-    background: #414141;
+    background: var(--fondo_footer);
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -14,20 +21,11 @@
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-}
-
-.redes img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
+    border-bottom: 1px solid var(--adorno_footer);
 }
 
 .titulo_footer{
-    color: #fff;
+    color: var(--titulo_footer) ;
     text-align: center;
 }
 
@@ -36,21 +34,21 @@
 }
 
 .redes h3{
-    color: #fff;
-    border-bottom: 3px solid #af20d3;
+    color: var(--titulo_footer);
+    border-bottom: 3px solid var(--adorno_footer);
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .redes a{
-    color: #ccc;
+    color: var(--icono_footer);
 }
 
 .derechos_autor{
     text-align: center;
     font-size: 24px;
     margin: 20px 0 0 0 ;
-    color: #9e9797;
+    color: var(--copyright);
 }
 
 #icono{
@@ -58,13 +56,7 @@
 }
 
 @media screen and (max-width: 800px){
-    .contenedor_footer{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer{
-        display: flex;
-        height: 1050px;
+    #icono{
+        font-size: 50px;
     }
 }

@@ -6,26 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantas medicinales</title>
-    <link rel="stylesheet" href="/estilos.css">
-    <link rel="stylesheet" href="/tratamientos.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="paleta_colores.css">
     <link rel="shortcut icon" href="imagenes/logo.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/bf5983d8b7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <!--navegador-->
-        <nav>
+        <nav class="nav">
             <img class="logo" src="../imagenes/logo.jpg" alt="logo">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Curiosidades</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="tratamientos.html">Tratamientos</a></li>
-                <li><a href="#">Foro</a></li>
+            <ul class="opciones">
+                <li class="opcion"><a href="#" class="activa">Inicio</a></li>
+                <li class="opcion"><a href="curiosidades.html" class="ab">Curiosidades</a></li>
+                <li class="opcion"><a href="#" class="ab">Nosotros</a></li>
+                <li class="opcion"><a href="tratamientos.html" class="ab">Tratamientos</a></li>
+                <li class="opcion"><a href="#" class="ab">Foro</a></li>
             </ul>
         </nav>
     </header>
@@ -96,14 +97,14 @@
                 <h2 class="titulo">Que dicen los expertos</h2>
                 <div class="expertos">
                     <div class="mensajes">
-                        <img src="imagenes/usuario.png" alt="usuario">
+                        <i class="fa-solid fa-user" id="icono"></i>
                         <div class="mensaje">
                             <h3>Nombre experto/sito</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
                         </div>
                     </div>
                     <div class="mensajes">
-                        <img src="imagenes/usuario.png" alt="usuario">
+                        <i class="fa-solid fa-user" id="icono"></i>
                         <div class="mensaje">
                             <h3>Nombre experto/sito</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
@@ -115,7 +116,6 @@
     </main>
     <footer>
         <!--redes sociales -->
-        <script src="https://kit.fontawesome.com/bf5983d8b7.js" crossorigin="anonymous"></script>
         <section class="redes_sociales">
             <h2 class="titulo_footer">Redes sociales</h2>
             <div class="contenedor_footer">
