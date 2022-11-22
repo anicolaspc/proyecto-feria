@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantas medicinales</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="paleta_colores.css">
-    <link rel="shortcut icon" href="imagenes/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/paleta_colores.css">
+    <link rel="stylesheet" href="../css/tratamientos.css">
+    <link rel="shortcut icon" href="../imagenes/logo.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -20,19 +22,32 @@
     <header>
         <!--navegador-->
         <nav class="nav">
-            <img class="logo" src="imagenes/logo.jpg" alt="logo">
+            <img class="logo" src="../imagenes/logo.jpg" alt="logo">
             <ul class="opciones">
-                <li class="opcion"><a href="index.html" class="a">Inicio</a></li>
-                <li class="opcion"><a href="curiosidades.html" class="a">Curiosidades</a></li>
-                <li class="opcion"><a href="#" class="a">Nosotros</a></li>
+                <li class="opcion"><a href="index.html" class="ab">Inicio</a></li>
+                <li class="opcion"><a href="curiosidades.html" class="ab">Curiosidades</a></li>
+                <li class="opcion"><a href="#" class="ab">Nosotros</a></li>
                 <li class="opcion"><a href="#" class="activa">Tratamientos</a></li>
-                <li class="opcion"><a href="#" class="a">Foro</a></li>
+                <li class="opcion"><a href="#" class="ab">Foro</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            
+            <div class="div">
+                <img class="cuerpo" src="../imagenes/cuerpo.jpg" alt="cuerpo" usemap="#imagen-map">
+
+                <map class="indicador" name="imagen-map">
+                    <area style="color: blue" shape="rect" coords="83,12,130,80" href="" alt="cabeza">
+
+                    <area shape="rect" coords="60,95,155,250" href="" alt="cuerpo">
+                    
+                    <area shape="rect" coords="35,95,60,295" href="" alt="brazoI">
+                    
+                    <area shape="rect" coords="155,95,180,295" href="" alt="brazoD">
+                    
+                    <area shape="rect" coords="60,250,155,476" href="" alt="piernas">
+                </map>
         </section>
         <!--comentarios de expertos-->
         <section class="comentarios_expertos">
@@ -54,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>

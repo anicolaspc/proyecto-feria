@@ -1,0 +1,41 @@
+.curiosidades {
+    background: var(--fondo);
+    padding: 10px 0;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.colombia {
+    width: 250px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.regiones1 a,
+.regiones2 a {
+    color: var(--fondo_base);
+    margin-top: 20px;
+}
+
+.mapa,
+.regiones1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.mapa,
+.regiones2 {
+    float: right;
+    margin-left: 10px;
+}
+
+.mapa .region {
+    list-style: none;
+    flex-direction: column;
+    line-height: 149px;
+    margin: 0 5px;
+}
+

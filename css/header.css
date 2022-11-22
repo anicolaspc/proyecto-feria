@@ -1,5 +1,4 @@
 header{
-    padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -12,6 +11,7 @@ header{
     height: 90px;
     width: 90px;
 }
+
 .nav .opciones{
     float: right;
     margin-right: 20px;
@@ -33,7 +33,6 @@ nav ul li a{
 .opcion a:hover, 
 .activa{
     color: var(--texto);
-    text-decoration: underline 3px var(--texto);
     background: var(--nav);
     border-radius: 10px;
     font-size: 22px;
@@ -42,7 +41,6 @@ nav ul li a{
 
 .nav {
     text-align: right;
-    padding: 30px 30px 0 0;
 }
 
 .nav>a {

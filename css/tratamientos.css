@@ -1,0 +1,13 @@
+.cuerpo{
+    display: block;
+    margin: auto;
+}
+
+.div {
+    background: pink;
+    padding: 10px 0;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
